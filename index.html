@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a12a0ec97f.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <div class="heading_name">
+                <h1 > <span id="first">A</span> <span id="second">nkit</span> <span id="third">.</span> </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href=""> Home </a></li>
+                    <li> <a href="#about-us"> About us </a></li>
+                    <li> <a href="#services"> Services </a></li>
+                    <li> <a href="#my-work"> My work </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header-text" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">
+            <p>
+                <span class="word">U</span><span class="word">I</span><span class="word">/</span><span
+                    class="word">U</span><span class="word">X</span>
+                <span class="word">D</span><span class="word">e</span><span class="word">s</span><span
+                    class="word">i</span><span class="word">g</span><span class="word">n</span><span
+                    class="word">e</span><span class="word">r</span>
+            </p>
+            <h1 id="moving-text" data-aos="fade-right" data-aos-offset="300" data-aos-duration="2000" data-aos-easing="ease-in-sine">Hi, I'm <span id="header-name" style="color: rgb(255,0,128)">Ankit</span> Kumar from
+                India...</h1>
+        </div>
+    </header>
+
+
+    <!------------------- Rough Work --------------------->
+
+    <!--
+    <section id="img-sec">
+        <img src="https://cdn.pixabay.com/photo/2017/01/29/21/16/nurse-2019420__340.jpg" alt=""> 
+        <img src="https://cdn.pixabay.com/photo/2019/07/30/15/57/dentist-4373290__480.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2014/12/10/20/48/medic-563425__480.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2017/05/13/07/52/hand-2308932__480.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2017/05/26/15/06/doctor-2346235__480.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2020/04/21/16/39/covid-19-5073811__480.jpg" alt="">
+    </section>
+
+    <input type="submit" style="padding: 10px; background:linear-gradient(30deg, blue,red); color:white; border: 3px solid white; border-radius: 30px; font-size: 30px; margin: 50px;">
+    <input type="submit" value="Login" style="padding: 10px 20px; background:linear-gradient(30deg, blue,red); color:white; border: 3px solid white; border-radius: 30px; font-size: 30px; margin: 50px;"> 
+-->
+
+    <section id="about-us">
+        <div id="about-container">
+            <div id="col-1" data-aos="zoom-out-right" data-aos-duration="1000" data-aos-offset="500">
+                <img src="Images/ankit2.jpeg" alt="">
+            </div>
+            <div id="col-2" data-aos="zoom-out-left" data-aos-duration="1000">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error numquam alias maiores cum eius.
+                    Incidunt voluptate molestiae voluptas, amet tempore excepturi? Distinctio dolore, consequuntur minus
+                    explicabo laborum dignissimos doloribus velit nihil, qui eaque earum impedit optio! Autem eos
+                    aliquam inventore, numquam aut esse, repellat quisquam fugiat corrupti maxime aspernatur ea ipsam soluta consequatur.
+                </p>
+                <div id="skill-sec">
+                    <p id="first-p" onclick="fun(1)">Skills</p>
+                    <p id="second-p" onclick="fun(2)">Experience</p>
+                    <p id="third-p" onclick="fun(3)">Education</p>
+                </div>
+
+                <div id="skill-content-1" class="three-items">
+                    <p class="pink">UI/UX </p>
+                    <p >Designing Web/App interfaces</p> <br>
+                    <p class="pink">Web Development</p>
+                    <p>Web app Development</p> <br>
+                    <p class="pink">App Development</p>
+                    <p>Building Android/iOS apps</p> <br>
+                </div>
+                <div id="skill-content-2" class="three-items">
+                    <p class="pink">2021 - Current </p>
+                    <p >Designing Web/App interfaces</p> <br>
+                    <p class="pink">2019 - 2021</p>
+                    <p>Web app Development</p> <br>
+                    <p class="pink">2017 - 2019</p>
+                    <p>Building Android/iOS apps</p> <br>
+                    <p class="pink">2015 - 2017</p>
+                    <p>Building Android/iOS apps</p> <br>
+                </div>
+                <div id="skill-content-3" class="three-items">
+                    <p class="pink">B.Tech in CSE </p>
+                    <p >2021-25 Batch</p> <br>
+                    <p class="pink">Class 12th</p>
+                    <p>74.2% in BSEB</p> <br>
+                    <p class="pink">Class 10th</p>
+                    <p>93.6% in CBSE</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services">
+        <h1>My Services</h1>
+        <div id="service-container">
+            <div class="service-item" data-aos="flip-left" data-aos-duration="2000"  data-aos-offset="150">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos perspiciatis tempora, dolorum nam vero minima velit.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-item" data-aos="flip-up" data-aos-duration="2000"  data-aos-offset="150">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos perspiciatis tempora, dolorum nam vero minima velit.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="service-item" data-aos="flip-right" data-aos-duration="2000"  data-aos-offset="150">
+                <i class="fa-brands fa-app-store"></i>                <h2>App Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos perspiciatis tempora, dolorum nam vero minima velit.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="my-work">
+        <h1>My Work</h1>
+        <div id="work-container">
+            <div class="work-item" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
+                <img src="Images/a1.jpeg" alt="">
+                <div class="layer">
+                    <h3>Website Development</h3>
+                    <p>Creating full fleged single/multi page website with too many features like payment pages & so on.</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="work-item" data-aos="fade-down" data-aos-duration="1000" data-aos-offset="300">
+                <img src="Images/a1.jpeg" alt="">
+                <div class="layer">
+                    <h3>Web Designing</h3>
+                    <p>Designing websites & making its PSD format.</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>            
+            </div>
+            <div class="work-item" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="300">
+                <img src="Images/a1.jpeg" alt="">
+                <div class="layer">
+                    <h3>App Development</h3>
+                    <p>Discover the latest app development tools, platform updates, training, and documentation for developers across every Android device.</p>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>            
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
